@@ -1,0 +1,20 @@
+* {
+    margin: 40px;
+}
+/*
+.css-selector {
+    font-family: 'open sans', sans;
+    }
+*/
+header {
+    color: #FAAF40;
+}
+
+hr {
+    position: relative; 
+    top: -30px; 
+    border: none; 
+    height: 10px; 
+    background: #006191; 
+    
+}
