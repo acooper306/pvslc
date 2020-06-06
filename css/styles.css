@@ -1,20 +1,54 @@
 * {
-    margin: 40px;
+  /*border: dotted black 0.5px; */
 }
 /*
 .css-selector {
     font-family: 'open sans', sans;
     }
 */
-header {
-    color: #FAAF40;
+
+.logo {
+  max-width: 300px;
+  float: left;
 }
 
-hr {
-    position: relative; 
-    top: -30px; 
-    border: none; 
-    height: 10px; 
-    background: #006191; 
-    
+header {
+  color: #faaf40;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+/*
+#banner {
+  background-image: url("../../images/crayons.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  padding: 30px 100px 100px 10px;
+}
+*/
+
+#banner {
+  height: 300px;
+  background-image: url("../../images/crayons.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  padding: 30px 100px 100px 10px;
+}
+
+.banner-text {
+  max-width: 60%;
+  font-size: 1.3125em;
+  font-weight: 600;
+  text-align: center;
+  color: #046494;
+  /*background-color: #006191; */
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  background-color: #faaf40;
+  font-size: 2.625em;
+  font-weight: 700;
+  line-height: 100%;
 }
