@@ -65,5 +65,5 @@ h3 {
 
 .sign-up p {
   border: dotted black 1px;
-  margin: 5px;
+  margin: 0, 5px, 0, 5px;
 }
